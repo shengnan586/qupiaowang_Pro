@@ -1,0 +1,128 @@
+.right {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.right .right_dark {
+  width: 35px;
+  height: 100%;
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.right .right_dark .bgimg{
+  background: url(../images/css_sprites.png) no-repeat ;
+}
+
+
+
+.right .right_dark::before,
+.right .right_dark .shopping_cart::before,
+.right .right_dark .onlineService::before {
+  content: "";
+  display: table;
+}
+
+.right .right_dark>div {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.right .right_dark>div:hover {
+  background-color: #e5004f;
+}
+
+
+.right .right_dark .shopping_cart {
+  width: 100%;
+  height: 135px;
+  margin-top: 60px;
+}
+
+.right .right_dark .shopping_cart>div,
+.right .right_dark .onlineService>div {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 20px;
+}
+
+.right .right_dark .shopping_cart .shopping_icon {
+  background-position: -550px -800px;
+  margin: 10px auto 5px;
+}
+
+.right .right_dark .shopping_cart .shopping_txt {
+  height: 70px;
+}
+
+.right .right_dark .shopping_cart .shopping_num {
+  background-color: #e5004f;
+}
+
+.right .right_dark .onlineService {
+  height: 136px;
+}
+
+.right .right_dark .onlineService .onlineService_icon {
+  background-position: -671px -800px;
+  margin: 10px auto 5px;
+}
+.right .right_dark .orderSearch,
+.right .right_dark .checkTicketSearch,
+.right .right_dark .fuwuhao,
+.right .right_dark .message{
+  width:35px;
+  height:35px;
+}
+.right .right_dark .orderSearch{
+  background-position:-317px -287px;
+}
+.right .right_dark .checkTicketSearch{
+  background-position: -502px -794px;
+}
+.right .right_dark .fuwuhao{
+  background-position: -254px -155px;
+}
+.right .right_dark .message{
+  background-position: -295px -155px;
+}
+.right .right_dark .Search_txt{
+  width:90px;
+  height:35px;
+  line-height: 35px;
+  background-color: #e5004f;
+  position: absolute;
+  right:70px;
+  top:0;
+  text-align: center;
+  opacity: 0;
+  transition: all .5s linear;
+}
+
+.right .right_dark>div:hover .Search_txt{
+  right:35px;
+  opacity: 1;
+}
+
+.right .right_dark .fuwuhao .Search_txt{
+  width:120px;
+  height:120px;
+  background:#fff url(../images/qcodeSprite.png) no-repeat -150px -10px;
+}
+.right .right_dark .top{
+  width:35px;
+  height:70px;
+  position: absolute;
+  left:0;
+  bottom:53px;
+  background-position:-933px -660px;
+  display: none;
+}
+
+

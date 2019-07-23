@@ -1,0 +1,83 @@
+.footer {
+  background-color: #fff;
+  color: #4c4c4c;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: #4c4c4c;
+}
+
+.footer a:hover {
+  color: #e5004f;
+}
+
+.footer .helper {
+  background-color: #f6f6f6;
+  padding-top: 93px;
+}
+
+.footer .helper .helper_container,
+.footer .footer_container {
+  width: 1188px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer .helper .helper_container {
+  padding-bottom: 29px;
+  border-bottom: 5px solid #e5004f;
+}
+
+.footer .footer_container .guide {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.footer .footer_container .guide li {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.footer .footer_container .guide h2 {
+  font-size: 14px;
+  margin: 25px 0 15px;
+}
+
+.footer .footer_container .guide>div {
+  text-align: center;
+}
+
+.footer .footer_container .guide .dingyue {
+  width: 120px;
+  height: 120px;
+  background: url(../images/qcodeSprite.png) no-repeat -10px -10px;
+}
+
+.footer .footer_container .about {
+  padding: 30px 0 10px;
+  text-align: center;
+}
+
+.footer .footer_container .about a {
+  padding: 0 15px;
+}
+
+.footer .footer_container .copy {
+  text-align: center;
+}
+
+.footer .footer_container .gongshang {
+  position: absolute;
+  right: 312px;
+  bottom: 0;
+}
+
+.footer .footer_container .gongshang a {
+  display: inline-block;
+  width: 36px;
+  height: 48px;
+  background: url(../images/css_sprites.png) no-repeat -900px -838px;
+}
